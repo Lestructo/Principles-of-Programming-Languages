@@ -23,5 +23,11 @@ The parser calls the scanner to:
 Parsing
 - LL parsers - top-down, predictive
 - LR parsers - bottom-up, shift-reduce
+- You commonly see LL or LR written with a number in parentheses after it
+  - This number indicates how many tokens of
+look-ahead are required in order to parse
+  - Almost all real compilers use one token of
+look-ahead.
+
 
 
