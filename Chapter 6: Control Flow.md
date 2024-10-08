@@ -26,3 +26,7 @@ Exception handling and speculation:
 
 Speculation:
 - A program fragment is executed optimistically, on the assumption that some expected condition will be true.
+
+Nondeterminacy:
+- The ordering or choice among statements or expressions is deliberately left unspecified, implying that any alternative will lead to correct results.
+
